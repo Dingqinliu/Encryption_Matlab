@@ -1,7 +1,6 @@
 
 function ww=DWT(N)
-
-[h,g]= wfilters('sym8','d');       %  分解低通和高通滤波器
+[h,g]= wfilters('sym8','d');       %  分解低通、高通滤波器
 
 % N=256;                           %  矩阵维数(大小为2的整数幂次)
 L=length(h);                       %  滤波器长度
