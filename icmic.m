@@ -10,3 +10,4 @@ x=sin(u./x);
 plot(u,x,'k.','markersize',2)
 hold on;
 end
+怎么办我代码传不上了
